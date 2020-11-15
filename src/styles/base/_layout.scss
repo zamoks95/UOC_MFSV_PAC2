@@ -1,0 +1,45 @@
+.layout {
+  max-width: $break-point;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+
+  &__content {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+  }
+
+  .sidebar,
+  .main {
+    margin: 20px;
+  }
+}
+
+@media (max-width: $break-point - 350px) {
+  .layout {
+    flex-direction: column;
+
+    &__content {
+      flex-direction: column;
+    }
+  }
+
+  .sidebar,
+  .main {
+    margin: 0;
+    width: 100%;
+    max-width: -webkit-fill-available;
+  }
+}

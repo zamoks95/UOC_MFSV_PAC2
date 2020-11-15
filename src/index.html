@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MFSV - PAC 1</title>
+    <link rel='icon' href='/src/favicon.png'/ >
+  </head>
+  <body>
+    <div class="layout">
+      <div class="layout__header">
+        <header class="header">
+          <h1 class="header__title">
+            Matemàtiques i Física per a simulacions i videojocs
+          </h1>
+          <h2 class="header__subtitle">
+            PAC 1. Introducció 3D JavaScript - Sergi Zamora
+          </h2>
+        </header>
+      </div>
+      <div class="layout__content">
+        <aside class="sidebar">
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li
+                class="navigation__list__item navigation__list__item--active"
+                data-id="1"
+              >
+                Tutorial 1
+              </li>
+              <li class="navigation__list__item" data-id="2">Tutorial 2</li>
+              <li class="navigation__list__item" data-id="3">Tutorial 3</li>
+              <li class="navigation__list__item" data-id="4">Tutorial 4</li>
+              <li class="navigation__list__item" data-id="5">Tutorial 5</li>
+              <li class="navigation__list__item" data-id="6">Tutorial 6</li>
+              <li class="navigation__list__item" data-id="7">Tutorial 7</li>
+              <li class="navigation__list__item" data-id="8">Tutorial 8</li>
+            </ul>
+          </nav>
+        </aside>
+        <main class="main">
+          <div class="tutorial">
+            <!-- Item 1 - Start -->
+            <div class="tutorial__item tutorial__item--active" data-id="1">
+              <div class="tutorial__item__header">
+                <h3>Tutorial 1</h3>
+              </div>
+              <div class="tutorial__item__content">
+                <div
+                  class="tutorial__item__content__canvas"
+                  id="Tutorial1Canvas"
+                ></div>
+                <div class="tutorial__item__content__text">
+                  <h4>Modificacions</h4>
+                  <ul>
+                    <li>
+                      S'ha re factoritzat la base del codi i simplificat creant
+                      funcions per a blocs repetitius.
+                    </li>
+                    <li>
+                      Les mides de l'escena estan determinades per les mides del
+                      contenidor.
+                    </li>
+                    <li>
+                      S'ha habilitat que la mida de l'escena sigui adaptativa a
+                      la mida de la pantalla.
+                    </li>
+                    <li>S'ha modificat la mida del triangle i del quadrat.</li>
+                    <li>S'ha introduït un hexàgon al centre de l'escena.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Item 1 - End -->
+            <!-- Item 2 - Start -->
+            <div class="tutorial__item" data-id="2">
+              <div class="tutorial__item__header">
+                <h3>Tutorial 2</h3>
+              </div>
+              <div class="tutorial__item__canvas">
+                <div
+                  class="tutorial__item__content__canvas"
+                  id="Tutorial2Canvas"
+                ></div>
+                <div class="tutorial__item__content__text">
+                  <h4>Modificacions</h4>
+                  <ul>
+                    <li>
+                      S'han simplificat els materials creant una funció per a
+                      cada tipus diferent.
+                    </li>
+                    <li>Es pot passar un color específic al material bàsic.</li>
+                    <li>
+                      S'ha aplicat un material de roda de colors a l'hexàgon.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Item 2 - End -->
+
+            <!-- Item 3 - Start -->
+            <div class="tutorial__item" data-id="3">
+              <div class="tutorial__item__header">
+                <h3>Tutorial 3</h3>
+              </div>
+              <div class="tutorial__item__canvas">
+                <div
+                  class="tutorial__item__content__canvas"
+                  id="Tutorial3Canvas"
+                ></div>
+                <div class="tutorial__item__content__text">
+                  <h4>Modificacions</h4>
+                  <ul>
+                    <li>Creació de funció sinusoidal</li>
+                    <li>Aplicada rotació i canvi de posició a l'hexàgon</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Item 3 - End -->
+
+            <!-- Item 4 - Start -->
+            <div class="tutorial__item" data-id="4">
+              <div class="tutorial__item__header">
+                <h3>Tutorial 4</h3>
+              </div>
+              <div class="tutorial__item__canvas">
+                <div
+                  class="tutorial__item__content__canvas"
+                  id="Tutorial4Canvas"
+                ></div>
+                <div class="tutorial__item__content__text">
+                  <h4>Modificacions</h4>
+                  <ul>
+                    <li>Creació de l'esfera</li>
+                    <li>Creació de generador de color aleatori</li>
+                    <li>Creació de material per a l'esfera</li>
+                    <li>Animació sinusoidal per a l'esfera</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Item 4 - End -->
+
+            <!-- Item 5 - Start -->
+            <div class="tutorial__item" data-id="5">
+              <div class="tutorial__item__header">
+                <h3>Tutorial 5</h3>
+              </div>
+              <div class="tutorial__item__canvas">
+                <div
+                  class="tutorial__item__content__canvas"
+                  id="Tutorial5Canvas"
+                ></div>
+                <div class="tutorial__item__content__text">
+                  <h4>Modificacions</h4>
+                  <ul>
+                    <li>Creació de les 6 textures per al dau</li>
+                    <li>Creació del nou material pel dau</li>
+                    <li>Creació de la Terra</li>
+                    <li>Creació del nou material per la Terra</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Item 5 - End -->
+
+            <!-- Item 6 - Start -->
+            <div class="tutorial__item" data-id="6">
+              <div class="tutorial__item__header">
+                <h3>Tutorial 6</h3>
+              </div>
+              <div class="tutorial__item__canvas">
+                <div
+                  class="tutorial__item__content__canvas"
+                  id="Tutorial6Canvas"
+                ></div>
+                <div class="tutorial__item__content__info">
+                  <p>W / S: Control X rotation speed</p>
+                  <p>A / D: Control Y rotation speed</p>
+                  <p>+ / -: Move along z axis</p>
+                  <p>L: Toggle Light</p>
+                </div>
+                <div class="tutorial__item__content__text">
+                  <h4>Modificacions</h4>
+                  <ul>
+                    <li>Creació de MeshPhongMaterial</li>
+                    <li>Creació d'events nous amb teclat</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Item 6 - End -->
+
+            <!-- Item 7 - Start -->
+            <div class="tutorial__item" data-id="7">
+              <div class="tutorial__item__header">
+                <h3>Tutorial 7</h3>
+              </div>
+              <div class="tutorial__item__canvas">
+                <div
+                  class="tutorial__item__content__canvas"
+                  id="Tutorial7Canvas"
+                ></div>
+                <div class="tutorial__item__content__info">
+                  <p>W / S: Control X rotation speed</p>
+                  <p>A / D: Control Y rotation speed</p>
+                  <p>+ / -: Move along z axis</p>
+                  <p>L: Toggle Light</p>
+                  <p>B: Toggle Blending</p>
+                </div>
+                <div class="tutorial__item__content__text">
+                  <h4>Modificacions</h4>
+                  <ul>
+                    <li>Aplicació del Blending al Cub</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Item 7 - End -->
+
+             <!-- Item 7 - Start -->
+             <div class="tutorial__item" data-id="8">
+              <div class="tutorial__item__header">
+                <h3>Tutorial 8</h3>
+              </div>
+              <div class="tutorial__item__canvas">
+                <div
+                  class="tutorial__item__content__canvas"
+                  id="Tutorial8Canvas"
+                ></div>
+                <div class="tutorial__item__content__info">
+                  <p>W / S: Control X rotation speed</p>
+                  <p>A / D: Control Y rotation speed</p>
+                  <p>R / F: Control Camera Y Rotation</p>
+                  <p>+ / -: Move along z axis</p>
+                </div>
+                <div class="tutorial__item__content__text">
+                  <h4>Modificacions</h4>
+                  <ul>
+                    <li>Creació del Sol</li>
+                    <li>Creació de la Terra</li>
+                    <li>Creació de la Lluna</li>
+                    <li>Creació de generador d'orbites (MVU)</li>
+                    <li>Creació de materials</li>
+                    <li>Animació dels elements</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Item 7 - End -->
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

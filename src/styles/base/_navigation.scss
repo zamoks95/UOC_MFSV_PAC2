@@ -1,0 +1,34 @@
+.navigation {
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    &__item {
+      margin: 10px auto;
+
+      &::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background-color: white;
+        display: block;
+        transition: all ease-in-out 125ms;
+      }
+
+      &:hover {
+        cursor: pointer;
+        font-weight: bold;
+
+        &::after {
+          width: 100%;
+        }
+      }
+
+      &--active {
+        font-weight: bold;
+        padding-left: 15px;
+      }
+    }
+  }
+}
